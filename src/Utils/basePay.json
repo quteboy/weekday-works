@@ -1,0 +1,11 @@
+[
+    { "id": 1, "payScale": "0" },
+    { "id": 2, "payScale": "10" },
+    { "id": 3, "payScale": "20" },
+    { "id": 4, "payScale": "30" },
+    { "id": 5, "payScale": "40" },
+    { "id": 6, "payScale": "50" },
+    { "id": 7, "payScale": "60" },
+    { "id": 8, "payScale": "70" }
+
+  ]

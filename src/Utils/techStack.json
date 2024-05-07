@@ -1,0 +1,18 @@
+[
+    { "id": 1, "techStack": "Python" },
+    { "id": 2, "techStack": "Java" },
+    { "id": 3, "techStack": "GoLang" },
+    { "id": 4, "techStack": "Ruby/Rails" },
+    { "id": 5, "techStack": "C++" },
+    { "id": 6, "techStack": "Kotlin" },
+    { "id": 7, "techStack": "DJango" },
+    { "id": 8, "techStack": "C#" },
+    { "id": 9, "techStack": "GraphQL" },
+    { "id": 10, "techStack": "Flask" },
+    { "id": 11, "techStack": "TypeScript" },
+    { "id": 12, "techStack": "AWS" },
+    { "id": 13, "techStack": "Javascript" },
+    { "id": 14, "techStack": "Rust" },
+    { "id": 15, "techStack": "NodeJs" },
+    { "id": 16, "techStack": "React" }
+  ]

@@ -1,0 +1,88 @@
+[
+  {
+    "groupName": "Engineering",
+    "options": [
+      "Backend",
+      "Frontend",
+      "Fullstack",
+      "iOS",
+      "Android",
+      "DevOps",
+      "Data Science",
+      "Data Engineer",
+      "Computer Vision",
+      "NLP",
+      "Deep Learning",
+      "Test/QA",
+      "Web3",
+      "SRE",
+      "Data Infrastructure"
+    ]
+  },
+  {
+    "groupName": "Design",
+    "options": [
+      "Designer",
+      "Graphic Designer",
+      "Product Designer",
+      "Design Manager"
+    ]
+  },
+  {
+    "groupName": "Product",
+    "options": ["Product Manager"]
+  },
+  {
+    "groupName": "Operations",
+    "options": ["Operations Manager", "Founders Office/Chief of Staff"]
+  },
+  {
+    "groupName": "Sales",
+    "options": [
+      "Account Executive",
+      "Account Manager",
+      "Sales Development Representative"
+    ]
+  },
+  {
+    "groupName": "Marketing",
+    "options": [
+      "Growth Hacker",
+      "Product Marketing Manager",
+      "Digital Marketing Manager",
+      "Marketing"
+    ]
+  },
+  {
+    "groupName": "Other Engineering",
+    "options": ["Hardware", "Mechanical", "System"]
+  },
+  {
+    "groupName": "Business Analyst",
+    "options": ["Business Analyst"]
+  },
+  {
+    "groupName": "Data Analyst",
+    "options": ["Data Analyst"]
+  },
+  {
+    "groupName": "Project Manager",
+    "options": ["Project Manager"]
+  },
+  {
+    "groupName": "Legal",
+    "options": ["Legal"]
+  },
+  {
+    "groupName": "HR",
+    "options": ["HR"]
+  },
+  {
+    "groupName": "Finance",
+    "options": ["Finance"]
+  },
+  {
+    "groupName": "Management",
+    "options": ["Management"]
+  }
+]

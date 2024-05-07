@@ -1,0 +1,101 @@
+.jobCard {
+  min-height: 300px;
+  max-height: 100%;
+  background-color: rgba(255, 255, 255, 0.5) !important ;
+  padding: 14px 16px;
+  position: relative;
+}
+.jobCard:hover {
+  transition: all 0.5s ease-in-out;
+  transform: scale(1.04);
+}
+.jobCard_Logo {
+  width: 45px;
+  border-radius: 50%;
+}
+.jobCard_Name {
+  color: #8b8b8b;
+  font-size: 16px;
+  letter-spacing: 1px;
+  font-weight: 600;
+}
+.jobCard_Position {
+  font-weight: 400;
+  text-transform: capitalize;
+  font-size: 16px;
+}
+.jobCard_Location {
+  margin-top: 5px;
+  font-weight: 400;
+  text-transform: capitalize;
+  font-size: 16px;
+}
+.jobCard_Salary {
+  font-weight: 400;
+  text-transform: capitalize;
+  font-size: 14px;
+}
+.jobCard_AbtComp {
+  font-weight: 300;
+  text-transform: capitalize;
+  font-size: 22px;
+  margin-bottom: 6px;
+  color: #0d0d0d;
+}
+.jobCard_AbtUS {
+  font-weight: 400;
+  text-transform: capitalize;
+  font-size: 18px;
+  margin-bottom: 3px;
+  color: #0d0d0d;
+  line-height: 22px;
+}
+.jobCard_JD {
+  font-weight: 400;
+}
+.buttons-overlay {
+  position: absolute;
+  top: 64%;
+  left: 0;
+  width: 100%;
+  height: 400px;
+  background: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0.8) 5%,
+    rgba(255, 255, 255, 1) 80%
+  );
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
+  box-sizing: border-box;
+  z-index: 1;
+}
+.buttons {
+  text-align: center;
+  position: relative;
+  z-index: 2;
+}
+.jobCard_ViewBtb {
+  color: #4943da !important;
+  font-weight: 400;
+  font-size: 16px !important;
+}
+.jobCard_Min_Exp {
+  position: relative;
+  z-index: 2;
+}
+.jobCard_Min_Exp_Heading {
+  color: #8b8b8b;
+  font-weight: 500;
+  margin-bottom: 6px;
+}
+.jobCard_Min_Exp_Value {
+  font-weight: 400;
+  color: #0d0d0d;
+}
+.jobFilter_wdt{
+    min-width: 200px;
+    max-width: 100%;
+}
