@@ -120,6 +120,7 @@ const JobList = () => {
   };
   const handleRoleChange = (event) => {
     const { value: selected } = event.target;
+    setIsRoleSelected(true);
     console.log("value", selected);
     setSelectedRole(selected);
     console.log("jobList", jobList);
@@ -177,7 +178,7 @@ const JobList = () => {
         container
         direction="row"
         alignItems="flex-start"
-        justifyContent='space-between'
+        justifyContent="space-between"
         spacing={4}
       >
         <Grid item>
@@ -258,25 +259,28 @@ const JobList = () => {
             </Select>
           </FormControl>
         </Grid>
-        <Grid item lg={2}>
-          <FormControl fullWidth>
-            <InputLabel>Tech Stack</InputLabel>
-            <Select
-              value={selectedTechStack}
-              onChange={handleTechStack}
-              label="Tech Stack"
-              className="jobFilter_wdt"
-            >
-              {techStackList.map((item) => {
-                return (
-                  <MenuItem key={item.id} value={item.techStack}>
-                    {item.techStack}
-                  </MenuItem>
-                );
-              })}
-            </Select>
-          </FormControl>
-        </Grid>
+        {isRoleSelected && (
+          <Grid item lg={2}>
+            <FormControl fullWidth>
+              <InputLabel>Tech Stack</InputLabel>
+              <Select
+                value={selectedTechStack}
+                onChange={handleTechStack}
+                label="Tech Stack"
+                className="jobFilter_wdt"
+              >
+                {techStackList.map((item) => {
+                  return (
+                    <MenuItem key={item.id} value={item.techStack}>
+                      {item.techStack}
+                    </MenuItem>
+                  );
+                })}
+              </Select>
+            </FormControl>
+          </Grid>
+        )}
+
         <Grid item lg={2}>
           <FormControl fullWidth>
             <InputLabel>Minimum Base Salary</InputLabel>
