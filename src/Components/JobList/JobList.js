@@ -17,7 +17,6 @@ import {
   Chip,
   OutlinedInput,
 } from "@mui/material";
-import data from "../../Utils/data.json";
 import roleData from "../../Utils/Roles.json";
 import teamsSize from "../../Utils/companySize.json";
 import jobType from "../../Utils/JobType.json";
@@ -49,7 +48,6 @@ const JobList = () => {
 
     let config = {
       method: "post",
-      maxBodyLength: Infinity,
       url: "https://api.weekday.technology/adhoc/getSampleJdJSON",
       headers: {
         "Content-Type": "application/json",
