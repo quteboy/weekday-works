@@ -179,6 +179,7 @@ const JobList = () => {
         container
         direction="row"
         alignItems="flex-start"
+        justifyContent='space-between'
         spacing={4}
       >
         <Grid item>
